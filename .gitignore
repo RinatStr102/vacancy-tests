@@ -1,0 +1,27 @@
+# IntelliJ IDEA
+.idea/
+*.iml
+out/
+build/
+
+# Gradle
+.gradle/
+!gradle-wrapper.jar
+gradle-app.setting
+gradle.properties
+
+# Logs
+*.log
+
+# Java
+*.class
+
+# MacOS specific files
+.DS_Store
+._*
+
+# Others
+*.tmp
+*.lock
+*.bak
+*.swp
