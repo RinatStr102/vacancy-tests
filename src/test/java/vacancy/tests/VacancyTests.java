@@ -10,8 +10,10 @@ public class VacancyTests {
 
     @BeforeAll
     static void setUp() {
-        Configuration.browser = "safari";
-        //Configuration.browserSize = "1920x1080";
+            Configuration.remote = "http://localhost:4444/wd/hub";
+            Configuration.browser = "chrome"; // Укажите нужный браузер
+            Configuration.browserVersion = "128.0"; // Версия должна совпадать с browsers.json
+            //Configuration.startMaximized = true; // Открытие окна браузера в полном размере
     }
 
     @Test
